@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "com.fraunhofer.fkie",
+    "packageFolder": "com/fraunhofer/fkie",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.4.1",
+    "jwtSecretKey": "ZjM1MjA1MzE1ZmUwNWVkOTBmZjI1NDg5N2M2Yzg0ZTdlZGQyMjFhNzZhMTM1MTBmNWM1YzBhNDA5OGJhNjQwNTZkNjFhODQ4ZjZkYzE5ZThmM2IwMzYyN2U1NWMwODkxNmEzODkyYzI0NjlkYTkzNjUzZDY3ODI2Y2I4MDc0ZjM=",
+    "embeddableLaunchScript": false,
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "BananaGo",
+  "repository-name": "jhipster-sample-application"
+}
