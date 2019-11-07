@@ -42,6 +42,18 @@ public class CacheConfiguration {
             createCache(cm, com.fraunhofer.fkie.domain.User.class.getName());
             createCache(cm, com.fraunhofer.fkie.domain.Authority.class.getName());
             createCache(cm, com.fraunhofer.fkie.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.fraunhofer.fkie.domain.Region.class.getName());
+            createCache(cm, com.fraunhofer.fkie.domain.Country.class.getName());
+            createCache(cm, com.fraunhofer.fkie.domain.Location.class.getName());
+            createCache(cm, com.fraunhofer.fkie.domain.Department.class.getName());
+            createCache(cm, com.fraunhofer.fkie.domain.Department.class.getName() + ".employees");
+            createCache(cm, com.fraunhofer.fkie.domain.Task.class.getName());
+            createCache(cm, com.fraunhofer.fkie.domain.Task.class.getName() + ".jobs");
+            createCache(cm, com.fraunhofer.fkie.domain.Employee.class.getName());
+            createCache(cm, com.fraunhofer.fkie.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, com.fraunhofer.fkie.domain.Job.class.getName());
+            createCache(cm, com.fraunhofer.fkie.domain.Job.class.getName() + ".tasks");
+            createCache(cm, com.fraunhofer.fkie.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
