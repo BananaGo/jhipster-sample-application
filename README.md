@@ -10,23 +10,23 @@ Boilerplate **Spring Boot** / **Angular** application
 
 ![](https://github.com/BananaGo/jhipster-sample-application/blob/master/assets/1_functionality.png)
 
-##(2) Application Type
+## (2) Application Type
 
-![Screenshot 2019-11-07 at 20.09.06](https://github.com/BananaGo/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.09.06.png)
-
----
-
-![Screenshot 2019-11-07 at 20.39.24](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.39.24.png)
+![](https://github.com/BananaGo/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.09.06.png)
 
 ---
 
-![Screenshot 2019-11-07 at 20.39.43](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.39.43.png)
+![](https://github.com/BananaGo/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.39.24.png)
+
+---
+
+![](https://github.com/BananaGo/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.39.43.png)
 
 ### [Empty](https://github.com/BananaGo/jhipster-sample-application)
 
 ---
 
-![Screenshot 2019-11-08 at 02.26.56](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot 2019-11-08 at 02.26.56.png)
+![](https://github.com/BananaGo/jhipster-sample-application/assets/Screenshot 2019-11-08 at 02.26.56.png)
 
 ## Features
 
@@ -58,7 +58,7 @@ Boilerplate **Spring Boot** / **Angular** application
 |                              | Cucumber                                                                  |                                                                                                                                                                                             |
 |                              | Protractor                                                                | angular end-to-end                                                                                                                                                                          |
 
-##Result
+## Result
 
 ![Screenshot 2019-11-08 at 02.25.33](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot 2019-11-08 at 02.25.33.png)
 
