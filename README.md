@@ -60,15 +60,15 @@ Boilerplate **Spring Boot** / **Angular** application
 
 ## Result
 
-![](/Users/xray/jhipster/jhipster-sample-application/blob/master/assets/Screenshot2019-11-08at02.25.33.png)
+![](https://github.com/BananaGo/jhipster-sample-application/blob/master/assets/Screenshot2019-11-08at02.25.33.png)
 
 ## Admin
 
-![](/Users/xray/jhipster/jhipster-sample-application/blob/master/assets/Screenshot2019-11-08at02.26.15.png)
+![](https://github.com/BananaGo/jhipster-sample-application/blob/master/assets/Screenshot2019-11-08at02.26.15.png)
 
 ## _JHipster Domain Language_ (_JDL_)
 
-![](/Users/xray/jhipster/jhipster-sample-application/blob/master/assets/Screenshot202019-11-0820at2002.30.35.png)
+![](https://github.com/BananaGo/jhipster-sample-application/blob/master/assets/Screenshot202019-11-0820at2002.30.35.png)
 
 ```
 entity Region {
