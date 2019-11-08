@@ -68,7 +68,7 @@ Boilerplate **Spring Boot** / **Angular** application
 
 ## _JHipster Domain Language_ (_JDL_)
 
-![Screenshot 2019-11-08 at 02.30.35](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot%202019-11-08%20at%2002.30.35.png)
+![Screenshot 2019-11-08 at 02.30.35](/Users/xray/jhipster/jhipster-sample-application/blob/master/assets/Screenshot202019-11-0820at2002.30.35.png)
 
 ```
 entity Region {
