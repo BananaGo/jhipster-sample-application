@@ -12,21 +12,21 @@ Boilerplate **Spring Boot** / **Angular** application
 
 ## (2) Application Type
 
-![](https://github.com/BananaGo/jhipster-sample-application/assets/Screenshot2019-11-07at20.09.06.png)
+![](https://github.com/BananaGo/jhipster-sample-application/blob/master/assets/Screenshot2019-11-07at20.09.06.png)
 
 ---
 
-![](https://github.com/BananaGo/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.39.24.png)
+![](https://github.com/BananaGo/jhipster-sample-application/blob/master/assets/Screenshot2019-11-07at20.39.24.png)
 
 ---
 
-![](https://github.com/BananaGo/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.39.43.png)
+![](https://github.com/BananaGo/jhipster-sample-application/blob/master/assets/Screenshot2019-11-07at20.39.43.png)
 
 ### [Empty](https://github.com/BananaGo/jhipster-sample-application)
 
 ---
 
-![](https://github.com/BananaGo/jhipster-sample-application/assets/Screenshot 2019-11-08 at 02.26.56.png)
+![](https://github.com/BananaGo/jhipster-sample-application/blob/master/assets/Screenshot2019-11-08at02.26.56.png)
 
 ## Features
 
