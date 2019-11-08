@@ -1,6 +1,196 @@
-# jhipsterSampleApplication
+# jhipster Sample Application
 
 This application was generated using JHipster 6.4.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.4.1](https://www.jhipster.tech/documentation-archive/v6.4.1).
+
+# Generation
+
+Boilerplate **Spring Boot** / **Angular** application
+
+### jHipster command cli
+
+![1_functionality](/Users/xray/jhipster/jhipster-sample-application/assets/1_functionality.png)
+
+##(2) Application Type
+
+![Screenshot 2019-11-07 at 20.09.06](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.09.06.png)
+
+---
+
+![Screenshot 2019-11-07 at 20.39.24](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.39.24.png)
+
+---
+
+![Screenshot 2019-11-07 at 20.39.43](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.39.43.png)
+
+### [Empty](https://github.com/BananaGo/jhipster-sample-application)
+
+---
+
+![Screenshot 2019-11-08 at 02.26.56](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot 2019-11-08 at 02.26.56.png)
+
+## Features
+
+| Step                         | Features                                                                  |                                                                                                                                                                                             |
+| ---------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Application Type             | Monolithic application (recommended for simple projects)                  |                                                                                                                                                                                             |
+|                              | Microservice application                                                  |                                                                                                                                                                                             |
+|                              | Microservice gateway                                                      |                                                                                                                                                                                             |
+| Configure, Monitoring, Scale | Hipster Registry                                                          | [Eureka server](https://cloud.spring.io/spring-cloud-netflix/spring-cloud-netflix.html), [Spring Cloud Config server](https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html) |
+| Authentication               | JWT authentication (stateless, with a token)                              | https://jwt.io/                                                                                                                                                                             |
+|                              | OAuth 2.0 / OIDC Authentication (stateful, works with Keycloak and Okta)  | https://www.keycloak.org/, https://www.okta.com/                                                                                                                                            |
+|                              | HTTP Session Authentication (stateful, default Spring Security mechanism) | https://spring.io/projects/spring-security                                                                                                                                                  |
+| Database                     | SQL (H2, MySQL, MariaDB, PostgreSQL, Oracle, MSSQL)                       |                                                                                                                                                                                             |
+|                              | NoSQL/Document (MongoDB, Couchbase, Cassandra)                            |                                                                                                                                                                                             |
+| Spring cache abstraction     | Hazelcast implementation (distributed cache, for multiple nodes)          | Distributed cache                                                                                                                                                                           |
+|                              | Memcached                                                                 | Distributed Cache                                                                                                                                                                           |
+| Java Build                   | Maven                                                                     |                                                                                                                                                                                             |
+|                              | Gradle                                                                    |                                                                                                                                                                                             |
+| Socket                       | Elasticsearch                                                             | Search Engine                                                                                                                                                                               |
+|                              | Spring Websocket, Apache Kafka Messaging                                  | messaging                                                                                                                                                                                   |
+|                              | OpenAPI-generator, Swagger                                                |                                                                                                                                                                                             |
+| Java Testing                 | Unit                                                                      |                                                                                                                                                                                             |
+| Javascript Testring          | Jest                                                                      |                                                                                                                                                                                             |
+| Client Framework             | AngularTS                                                                 | Framework + CLI                                                                                                                                                                             |
+|                              | React                                                                     | Libarieisch                                                                                                                                                                                 |
+|                              | VueJS (not core)                                                          | Mix from Angular and React                                                                                                                                                                  |
+| i18n                         | English, Deutsch, Arabic, Chinese                                         | Internationalization                                                                                                                                                                        |
+| Client Testing               | Gatling                                                                   | load testing                                                                                                                                                                                |
+|                              | Cucumber                                                                  |                                                                                                                                                                                             |
+|                              | Protractor                                                                | angular end-to-end                                                                                                                                                                          |
+
+##Result
+
+![Screenshot 2019-11-08 at 02.25.33](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot 2019-11-08 at 02.25.33.png)
+
+## Admin
+
+![Screenshot 2019-11-08 at 02.26.15](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot 2019-11-08 at 02.26.15.png)
+
+## _JHipster Domain Language_ (_JDL_)
+
+![Screenshot 2019-11-08 at 02.30.35](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot%202019-11-08%20at%2002.30.35.png)
+
+```
+entity Region {
+	regionName String
+}
+
+entity Country {
+	countryName String
+}
+
+// an ignored comment
+/** not an ignored comment */
+entity Location {
+	streetAddress String,
+	postalCode String,
+	city String,
+	stateProvince String
+}
+
+entity Department {
+	departmentName String required
+}
+
+/**
+ * Task entity.
+ * @author The JHipster team.
+ */
+entity Task {
+	title String,
+	description String
+}
+
+/**
+ * The Employee entity.
+ */
+entity Employee {
+	/**
+	* The firstname attribute.
+	*/
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String,
+	hireDate Instant,
+	salary Long,
+	commissionPct Long
+}
+
+entity Job {
+	jobTitle String,
+	minSalary Long,
+	maxSalary Long
+}
+
+entity JobHistory {
+	startDate Instant,
+	endDate Instant,
+	language Language
+}
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
+
+relationship OneToOne {
+	Country{region} to Region
+}
+
+relationship OneToOne {
+	Location{country} to Country
+}
+
+relationship OneToOne {
+	Department{location} to Location
+}
+
+relationship ManyToMany {
+	Job{task(title)} to Task{job}
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Employee{job} to Job,
+	/**
+	* A relationship
+	*/
+	Department{employee} to
+	/**
+	* Another side of the same relationship
+	*/
+	Employee
+}
+
+relationship ManyToOne {
+	Employee{manager} to Employee
+}
+
+// defining multiple oneToOne relationships
+relationship OneToOne {
+	JobHistory{job} to Job,
+	JobHistory{department} to Department,
+	JobHistory{employee} to Employee
+}
+
+// Set pagination options
+paginate JobHistory, Employee with infinite-scroll
+paginate Job with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except Employee, Job
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
+
+```
+
+> [JDL Examples](https://github.com/jhipster/jdl-samples)
+>
+> [Application](https://github.com/BananaGo/jhipster-sample-application/tree/enteties)
 
 ## Development
 
