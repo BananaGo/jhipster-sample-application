@@ -24,6 +24,10 @@ const LAYOUT_ROUTES = [navbarRoute, ...errorRoute];
           path: 'account',
           loadChildren: () => import('./account/account.module').then(m => m.JhipsterSampleApplicationAccountModule)
         },
+        {
+          path: 'new',
+          loadChildren: () => import('./new/new.module').then(m => m.NewComponentModule)
+        },
         ...LAYOUT_ROUTES
       ],
       { enableTracing: DEBUG_INFO_ENABLED }
