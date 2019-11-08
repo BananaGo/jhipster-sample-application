@@ -8,11 +8,11 @@ Boilerplate **Spring Boot** / **Angular** application
 
 ### jHipster command cli
 
-![1_functionality](/Users/xray/jhipster/jhipster-sample-application/assets/1_functionality.png)
+![abc](https://github.com/BananaGo/jhipster-sample-application/assets/1_functionality.png)
 
 ##(2) Application Type
 
-![Screenshot 2019-11-07 at 20.09.06](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.09.06.png)
+![Screenshot 2019-11-07 at 20.09.06](https://github.com/BananaGo/jhipster-sample-application/assets/Screenshot 2019-11-07 at 20.09.06.png)
 
 ---
 
