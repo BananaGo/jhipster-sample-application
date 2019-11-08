@@ -60,11 +60,11 @@ Boilerplate **Spring Boot** / **Angular** application
 
 ## Result
 
-![](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot2019-11-08at02.25.33.png)
+![](/Users/xray/jhipster/jhipster-sample-application/blob/master/assets/Screenshot2019-11-08at02.25.33.png)
 
 ## Admin
 
-![](/Users/xray/jhipster/jhipster-sample-application/assets/Screenshot2019-11-08at02.26.15.png)
+![](/Users/xray/jhipster/jhipster-sample-application/blob/master/assets/Screenshot2019-11-08at02.26.15.png)
 
 ## _JHipster Domain Language_ (_JDL_)
 
